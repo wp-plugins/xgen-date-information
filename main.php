@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: xGen Plugin Date Information
+ * Plugin Name: xGen Date Information
  * Plugin URI: http://xgensolutions.in/xgen-plugin-date-information
  * Description: It shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date. Plus we have given a provision where the user can select which information they want to see and which they don't want to. We have also provided an option to change the column name i.e. user can change the default 'Last Activated Date' to something they want. This plugin helps user to track each and every plugin activation, deactivation, install and if they know fom what date and time they are facing the problem then with this provided information they will have ideas as which plugin is facing the problem.
  * Version: 1.0
