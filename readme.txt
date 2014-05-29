@@ -18,7 +18,7 @@ xGen Plugin Date Information offers valuable information related to plugin which
 xGen Plugin Date Information offers users to customize the different information shown i.e. show/hide any information they want(i.e. Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date), plus users can change the column name from default 'Installed Date' to something else based on their requirement. 
 If the user wants to retain the default column name then please do keep the column text values blank in the configuration page.
 
-These information is useful at the time of debugging. For instance if there are N number of plugins and after installing couple or more plugins, you found out that the site is not working properly so the plugin install date will help user to find out which plugin is causing the problem.
+These information are useful at the time of debugging. For instance if there are N number of plugins and after installing couple or more plugins, you found out that the site is not working properly so the plugin install date will help user to find out which plugin is causing the problem.
 
 == Installation ==
 
