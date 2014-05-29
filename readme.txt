@@ -9,13 +9,14 @@ License: GPLv2 or later
 Author URI: http://www.xgensolutions.in/
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-It shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date.
+Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date.
 
 == Description ==
 
 xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date.
 
-xGen Plugin Date Information plugin offers users to customize the different information shown i.e. show/hide any information they want, plus users can change the column name from default 'Installed Date' to something else based on their requirement. If the user wants to retain the default column name then please do keep the column text values blank in the configuration page.
+xGen Plugin Date Information offers users to customize the different information shown i.e. show/hide any information they want(i.e. Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date), plus users can change the column name from default 'Installed Date' to something else based on their requirement. 
+If the user wants to retain the default column name then please do keep the column text values blank in the configuration page.
 
 These information is useful at the time of debugging. For instance if there are N number of plugins and after installing couple or more plugins, you found out that the site is not working properly so the plugin install date will help user to find out which plugin is causing the problem.
 
