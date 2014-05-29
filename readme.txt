@@ -13,15 +13,11 @@ It shows the plugin's Install Date, Last Activated Date, Last Deactivated Date a
 
 == Description ==
 
-It shows the plugin Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date.
+xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date.
 
-Plus we have given a provision where the user can select which information they want to see and which they don't want to. 
+xGen Plugin Date Information plugin offers users to customize the different information shown i.e. show/hide any information they want, plus users can change the column name from default 'Installed Date' to something else based on their requirement. If the user wants to retain the default column name then please do keep the column text values blank in the configuration page.
 
-We have also provided an option to change the column name i.e. user can change the default 'Last Activated Date' column name to something they want.
-
-This plugin helps user to track each and every plugin activation, deactivation and install date. If they know from what date and time they are facing the problem in website, then with this provided information they will have an idea as which plugin is causing the problem.
-
-To restore the default column name (i.e. Label), keep the column text values as blank.
+These information is useful at the time of debugging. For instance if there are N number of plugins and after installing couple or more plugins, you found out that the site is not working properly so the plugin install date will help user to find out which plugin is causing the problem.
 
 == Installation ==
 
@@ -36,7 +32,7 @@ To restore the default column name (i.e. Label), keep the column text values as 
 == Screenshots ==
 
 1. This is the plugin configuration page where you can hide/show the column you want and also change the label of the column as per your requirement.
-2. You can see the different column added like Last Activated, Last Deactivated, Install Date and in desction the Last Updated Date.
+2. You can see the different column added like Last Activated, Last Deactivated, Install Date and Last Updated Date.
 
 == Changelog ==
 
