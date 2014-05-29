@@ -1,0 +1,34 @@
+.width_100{
+	width:100%;
+}
+
+.width_20{
+	width:20%;
+}
+
+.width_80{
+	width:80%;
+}
+
+.fl{
+	float:left;
+}
+
+.custom_select_tag{
+	margin-left:2%;
+	width:15%;
+	border-radius:10px;
+	padding:5px 8px !important;
+	height:35px !important;
+}
+
+.custom_select_tag option{
+	border-radius:5px;
+}
+
+.custom_textbox{
+	margin-left:2%;
+	width:250px;
+	border-radius:8px;
+	padding:5px 8px !important;
+}
