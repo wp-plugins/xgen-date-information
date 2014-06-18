@@ -11,8 +11,8 @@
 class xGenPluginDateInfo {
 
 	public function __construct() {	
-		//error_reporting(0);
-		//ini_set('display_errors', 0);	
+		error_reporting(0);
+		ini_set('display_errors', 0);	
 
 		add_filter('admin_init',							array($this,'xgenpc_add_option'));
 		add_action('activate_plugin', 						array($this,'xgenpc_activate_plugin_status'));
