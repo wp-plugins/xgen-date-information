@@ -37,7 +37,7 @@ These information are useful at the time of debugging. For instance if there are
 
 == Changelog ==
 
-
+1. Resolved the issue where the warning message was displayed after activation of the plugin.
 
 == Upgrade notice ==
 
