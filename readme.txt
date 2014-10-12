@@ -32,7 +32,7 @@ These information are useful at the time of debugging. For instance if there are
 
 == Screenshots ==
 
-1. This is the plugin configuration page where you can hide/show the column you want and also change the label of the column as per your requirement.
+1. This is the plugin configuration page where you can hide/show the column you want and also change the label of the column as per your requirement and ability to choose your own time/date stamp formats.
 2. You can see the different column added like Last Activated, Last Deactivated, Install Date and Last Updated Date.
 
 == Changelog ==
