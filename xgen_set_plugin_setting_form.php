@@ -1,5 +1,5 @@
 <div class="width_100">
-	<h3>xGen Plugin Date Information Plus</h3>
+	<h3>xGen Plugin Date Information</h3>
 	<?php
 		if (isset($message)) {
 			$message_output = htmlspecialchars(strip_tags(esc_sql($message)));

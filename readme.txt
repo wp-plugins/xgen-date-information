@@ -25,7 +25,7 @@ These information are useful at the time of debugging. For instance if there are
 1. Upload `xgen_plugin_date_info` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Then the Activated, Deactivated, Installed and Last Updated information will be shown in the plugin page.
-4. Check out the setting under 'xGen Plugin Date Information' menu, where you can configure whether to view/hide a specific column and to change the default label of the column
+4. Check out the setting under 'Settings'->'xGen Plugin Date Information' menu, where you can configure whether to view/hide a specific column and to change the default label of the column
 
 == Frequently asked questions ==
 
