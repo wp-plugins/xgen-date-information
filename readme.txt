@@ -3,7 +3,7 @@ Contributors: xgensolutions
 Donate link: 
 Tags: xgen plugin date information
 Requires at least: 3.3
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: xgen plugin date information
 License: GPLv2 or later
 Author URI: http://www.xgensolutions.in/
@@ -38,6 +38,10 @@ These information are useful at the time of debugging. For instance if there are
 == Changelog ==
 
 1. Resolved the issue where the warning message was displayed after activation of the plugin.
+2. Fixed the CSS style sheet issue.
+3. Moved the Menu to the plugin's settings page off of the main WordPress menu and placed it as a subitem of the regular WordPress Setting's menu.
+4. Added ability to choose your own time/date stamp formats. You can either customize them yourself or leave the fields empty to use WordPress's default settings.
+
 
 == Upgrade notice ==
 
