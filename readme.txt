@@ -3,17 +3,17 @@ Contributors: xgensolutions
 Donate link: 
 Tags: xgen plugin date information
 Requires at least: 3.3
-Tested up to: 4.0
+Tested up to: 4.1.1
 Stable tag: xgen plugin date information
 License: GPLv2 or later
 Author URI: http://www.xgensolutions.in/
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date.
+Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date and also the ability to sort plugins information based on Install Date, Activated Date, Deactivated Date.
 
 == Description ==
 
-xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date.
+xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date also having the ability to sort plugins information by Install Date, Activated Date, Deactivated Date.
 
 xGen Plugin Date Information offers users to customize the different information shown i.e. show/hide any information they want(i.e. Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date), plus users can change the column name from default 'Installed Date' to something else based on their requirement. 
 If the user wants to retain the default column name then please do keep the column text values blank in the configuration page.
@@ -27,13 +27,15 @@ These information are useful at the time of debugging. For instance if there are
 3. Then the Activated, Deactivated, Installed and Last Updated information will be shown in the plugin page.
 4. Check out the setting under 'Settings'->'xGen Plugin Date Information' menu, where you can configure whether to view/hide a specific column and to change the default label of the column
 
+Note: If the column name are not visible then kindly go to the setting page and enter the respective label for the column
+
 == Frequently asked questions ==
 
 
 == Screenshots ==
 
 1. This is the plugin configuration page where you can hide/show the column you want and also change the label of the column as per your requirement and ability to choose your own time/date stamp formats.
-2. You can see the different column added like Last Activated, Last Deactivated, Install Date and Last Updated Date.
+2. You can see the different column added like Last Activated, Last Deactivated, Install Date and Last Updated Date and then ability to sort plugins information by Install Date, Activated Date, Deactivated Date.
 
 == Changelog ==
 
@@ -41,7 +43,8 @@ These information are useful at the time of debugging. For instance if there are
 2. Fixed the CSS style sheet issue.
 3. Moved the Menu to the plugin's settings page off of the main WordPress menu and placed it as a subitem of the regular WordPress Setting's menu.
 4. Added ability to choose your own time/date stamp formats. You can either customize them yourself or leave the fields empty to use WordPress's default settings.
-
+5. Added ability to sort plugins information by Install Date, Activated Date, Deactivated Date
+6. Resolved the issue where plugin information i.e. Version, Author and Details information present in the Description column is not shown when "Show Latest Update Information in it's Description Column" display option is set to "No".
 
 == Upgrade notice ==
 
