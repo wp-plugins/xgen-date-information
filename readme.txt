@@ -9,7 +9,7 @@ License: GPLv2 or later
 Author URI: http://www.xgensolutions.in/
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date and also the ability to sort plugins information based on Install Date, Activated Date, Deactivated Date.
+Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date and also the ability to sort them.
 
 == Description ==
 
