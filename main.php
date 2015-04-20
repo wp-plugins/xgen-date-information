@@ -2,8 +2,8 @@
 /**
  * Plugin Name: xGen Plugin Date Information
  * Plugin URI: http://xgensolutions.in/xgen-plugin-date-information
- * Description: It shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date. Plus we have given a provision where the user can select which information they want to see and which they don't want to. We have also provided an option to change the column name i.e. user can change the default 'Last Activated Date' to something they want. Time/date formatting can also be customized. This plugin helps user to track each and every plugin activation, deactivation, install and if they know fom what date and time they are facing the problem then with this provided information they will have ideas as which plugin is facing the problem plus an ability to sort them.
- * Version: 2.1
+ * Description: It shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and Plugin Last Update Date. Plus we have given a provision where the user can select which information they want to see and which they don't want to. We have also provided an option to change the column name i.e. user can change the default 'Last Activated Date' to something they want. Time/date formatting can also be customized. This plugin helps user to track each and every plugin activation, deactivation, install and if they know fom what date and time they are facing the problem then with this provided information they will have ideas as which plugin is facing the problem plus an ability to sort plugins information by Install Date, Activated Date, Deactivated Date and Plugin Name.
+ * Version: 2.2
  * Author: xGen Solutions
  * Author URI: http://xgensolutions.in
  * License: GPL2
@@ -22,6 +22,7 @@ class xGenPluginDateInfo {
 		add_filter('plugin_row_meta',						array($this,'xgenpc_plugin_meta'), 10, 2);
 		add_action('admin_menu',							array($this,'register_xgen_plugin_date_info_menu'));
 		add_action('pre_current_active_plugins', 			array($this,'xgenpc_manage_plugin_sort'));
+		add_action('admin_enqueue_scripts', 				array($this,'xgenpc_load_custom_js'));
 
 		$this->main_site_url	=	get_site_url();
 		$this->main_site_url	.=	'/wp-admin/plugins.php';
@@ -37,6 +38,11 @@ class xGenPluginDateInfo {
 		 wp_enqueue_style('xgen_plugin_data_stylesheet');
 	}
 
+	function xgenpc_load_custom_js($hook) {
+		if(strpos($_SERVER['SCRIPT_NAME'], 'plugins.php') !== false ){
+			wp_enqueue_script('load_custom_script', plugin_dir_url( __FILE__ ) . '/js/custom.js' );
+		}
+	}
 	public function set_xgen_plugin_date_info_setting() {
 		if(isset($_POST) && !empty($_POST)){
 			$install_date_value							=	strip_tags(esc_sql($_POST['install_date_value']));
@@ -300,6 +306,7 @@ class xGenPluginDateInfo {
 			$list_of_plugins 		= $wp_list_table->items;
 			$plugin_activate_info	= unserialize(get_option('xgenpc_plugin_activate_date'));
 			$plugin_deactive_info 	= unserialize(get_option('xgenpc_plugin_deactivate_date'));
+
 			foreach($wp_list_table->items as $key=>$plugin_info)
 			{
 				if(!empty($plugin_activate_info[$plugin_info['plugin']]['timestamp']) && isset($plugin_activate_info[$plugin_info['plugin']]['timestamp']))
@@ -310,6 +317,7 @@ class xGenPluginDateInfo {
 				{
 					$wp_list_table->items[$key]['active_date']			=	'';
 				}
+
 
 				if(!empty($plugin_deactive_info[$plugin_info['plugin']]['timestamp']) && isset($plugin_deactive_info[$plugin_info['plugin']]['timestamp']))
 				{

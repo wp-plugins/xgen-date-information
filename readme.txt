@@ -13,7 +13,7 @@ Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and 
 
 == Description ==
 
-xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date also having the ability to sort plugins information by Install Date, Activated Date, Deactivated Date.
+xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date also having the ability to sort plugins information by Install Date, Activated Date, Deactivated Date and Plugin Name.
 
 xGen Plugin Date Information offers users to customize the different information shown i.e. show/hide any information they want(i.e. Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date), plus users can change the column name from default 'Installed Date' to something else based on their requirement. 
 If the user wants to retain the default column name then please do keep the column text values blank in the configuration page.
@@ -27,7 +27,7 @@ These information are useful at the time of debugging. For instance if there are
 3. Then the Activated, Deactivated, Installed and Last Updated information will be shown in the plugin page.
 4. Check out the setting under 'Settings'->'xGen Plugin Date Information' menu, where you can configure whether to view/hide a specific column and to change the default label of the column
 
-Note: If the column name are not visible then kindly go to the setting page and enter the respective label for the column
+= Note: If the column names are not visible then kindly go to the setting page and enter the respective label for the column and click on Save Settings =
 
 == Frequently asked questions ==
 
@@ -38,6 +38,9 @@ Note: If the column name are not visible then kindly go to the setting page and 
 2. You can see the different column added like Last Activated, Last Deactivated, Install Date and Last Updated Date and then ability to sort plugins information by Install Date, Activated Date, Deactivated Date and ability to sort plugins information for the same.
 
 == Changelog ==
+
+= Version 2.2 =
+1. Added ability to sort plugins information by Plugin Name.
 
 = Version 2.1 =
 1. Resolved the issue where the dates were not getting sorted based on month and year.
