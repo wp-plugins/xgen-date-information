@@ -45,6 +45,7 @@ Note: If the column name are not visible then kindly go to the setting page and 
 4. Added ability to choose your own time/date stamp formats. You can either customize them yourself or leave the fields empty to use WordPress's default settings.
 5. Added ability to sort plugins information by Install Date, Activated Date, Deactivated Date
 6. Resolved the issue where plugin information i.e. Version, Author and Details information present in the Description column is not shown when "Show Latest Update Information in it's Description Column" display option is set to "No".
+7. Resolved the issue where the dates were not getting sorted based on month and year,
 
 == Upgrade notice ==
 
