@@ -304,7 +304,7 @@ class xGenPluginDateInfo {
 			{
 				if(!empty($plugin_activate_info[$plugin_info['plugin']]['timestamp']) && isset($plugin_activate_info[$plugin_info['plugin']]['timestamp']))
 				{
-					$wp_list_table->items[$key]['active_date']			=	$this->xgenpc_format_date_value($plugin_activate_info[$plugin_info['plugin']]['timestamp']);
+					$wp_list_table->items[$key]['active_date']			=	strtotime($plugin_activate_info[$plugin_info['plugin']]['timestamp']);
 				}
 				else
 				{
@@ -313,7 +313,7 @@ class xGenPluginDateInfo {
 
 				if(!empty($plugin_deactive_info[$plugin_info['plugin']]['timestamp']) && isset($plugin_deactive_info[$plugin_info['plugin']]['timestamp']))
 				{
-					$wp_list_table->items[$key]['deactive_date']		=	$this->xgenpc_format_date_value($plugin_deactive_info[$plugin_info['plugin']]['timestamp']);
+					$wp_list_table->items[$key]['deactive_date']		=	strtotime($plugin_deactive_info[$plugin_info['plugin']]['timestamp']);
 				}
 				else
 				{
@@ -325,7 +325,7 @@ class xGenPluginDateInfo {
 				if (isset($plugin_folder_array[1])) {
 					$stat = stat(ABSPATH . 'wp-content/plugins/' . $plugin_folder_array[1]);
 					if (isset($stat['ctime'])) {
-						$wp_list_table->items[$key]['install_date']		=	$this->xgenpc_format_date_value($stat['ctime']);
+						$wp_list_table->items[$key]['install_date']		=	$stat['ctime'];
 					}else{
 						$wp_list_table->items[$key]['install_date']		=	'';
 					}
