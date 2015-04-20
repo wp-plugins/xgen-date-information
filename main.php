@@ -304,7 +304,7 @@ class xGenPluginDateInfo {
 			{
 				if(!empty($plugin_activate_info[$plugin_info['plugin']]['timestamp']) && isset($plugin_activate_info[$plugin_info['plugin']]['timestamp']))
 				{
-					$wp_list_table->items[$key]['active_date']			=	strtotime($plugin_activate_info[$plugin_info['plugin']]['timestamp']);
+					$wp_list_table->items[$key]['active_date']			=	$plugin_activate_info[$plugin_info['plugin']]['timestamp'];
 				}
 				else
 				{
@@ -313,7 +313,7 @@ class xGenPluginDateInfo {
 
 				if(!empty($plugin_deactive_info[$plugin_info['plugin']]['timestamp']) && isset($plugin_deactive_info[$plugin_info['plugin']]['timestamp']))
 				{
-					$wp_list_table->items[$key]['deactive_date']		=	strtotime($plugin_deactive_info[$plugin_info['plugin']]['timestamp']);
+					$wp_list_table->items[$key]['deactive_date']		=	$plugin_deactive_info[$plugin_info['plugin']]['timestamp'];
 				}
 				else
 				{
