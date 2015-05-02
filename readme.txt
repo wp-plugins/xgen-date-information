@@ -1,10 +1,10 @@
 === xGen Plugin Date Information ===
 Contributors: xgensolutions
 Donate link: 
-Tags: xgen plugin date information
+Tags: xGen Plugin Activated Date, Deactived Date, Installed Date and Last Updated Date Information
 Requires at least: 3.3
 Tested up to: 4.1.1
-Stable tag: xgen plugin date information
+Stable tag: xGen Plugin Activated Date, Deactived Date, Installed Date and Last Updated Date Information
 License: GPLv2 or later
 Author URI: http://www.xgensolutions.in/
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
