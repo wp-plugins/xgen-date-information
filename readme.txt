@@ -13,7 +13,7 @@ Shows the plugin's Install Date, Last Activated Date, Last Deactivated Date and 
 
 == Description ==
 
-<b>Note: As we cannot find enough time to take care of this plugin any more, plugin development won't be continued. The current version will be available as long as it works for the current WordPress version. If anyone needs any modification to be made in this plugin, then kindly send us email at</b> admin@xgensolutions.in 
+<b> Note: As we cannot find enough time to take care of this plugin any more, plugin development won't be continued. The current version will be available as long as it works for the current WordPress version. If anyone needs any modification to be made in this plugin, then kindly send us email at</b> admin@xgensolutions.in 
 
 xGen Plugin Date Information offers valuable information related to plugin which are Plugin Install Date, Activated Date, Deactivated Date and Plugin Last Updated Date also having the ability to sort plugins information by Install Date, Activated Date, Deactivated Date and Plugin Name.
 
